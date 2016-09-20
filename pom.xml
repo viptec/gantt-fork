@@ -13,4 +13,16 @@
 		<module>gantt-demo</module>
 	</modules>
 
+	<distributionManagement>
+		<repository>
+			<id>InternalReleases</id>
+			<name>Internal Releases</name>
+			<url>http://nexus.viessmann.com/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>InternalSnapshots</id>
+			<name>Internal Snapshots</name>
+			<url>http://nexus.viessmann.com/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
