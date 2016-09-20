@@ -1,2 +1,23 @@
-/.settings
-/.project
+# Netbeans
+nb-configuration.xml
+nbactions.xml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+rebel.xml
+/nbproject/
